@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Day3.OOP.ITI
 {
-     class Marker
+    internal class Student
     {
-
     }
 }

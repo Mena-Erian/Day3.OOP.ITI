@@ -5,12 +5,29 @@
         static void Main(string[] args)
         {
             #region Association
-            Marker mRed = new Marker();
-            Instructor ins1 = new Instructor();
+            // Association Relation And Not Any Creation Dependencies On Another 
 
-            ins1.WriteOnBoard(mRed);
-            ins1.Attend(); 
+            //Marker mRed = new Marker();
+            //Instructor ins1 = new Instructor();
+
+            //ins1.WriteOnBoard(mRed);
+            //ins1.Attend();
             #endregion
+
+            #region Aggregation 
+            // Aggregation Relation And Not any Creation Dependencies On Another
+
+            Room room = new Room();
+            Instructor ins = new Instructor();
+
+            room.InstructorEntered(ins);
+
+            room.StudentEntered(new Student());
+            room.StudentEntered(new Student());
+
+
+            #endregion
+
         }
     }
 }

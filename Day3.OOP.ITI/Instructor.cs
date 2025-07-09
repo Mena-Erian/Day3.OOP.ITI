@@ -9,7 +9,7 @@ namespace Day3.OOP.ITI
     public class Instructor
     {
         public string Name { get; set; }
-
+        //                       Association
         public void WriteOnBoard(Marker marker)
         {
 
