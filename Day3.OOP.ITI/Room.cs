@@ -13,12 +13,21 @@ namespace Day3.OOP.ITI
         Student[] students; // Make Ref of Array of Students
         int index = 0;
 
+        Wall[] walls;
+
         public Room()
         {
             instrucotr = null;
             students = new Student[10]; // New Object form Class Array and this object have 10 Ref From Type Student
             //                          Array of Refrences and Each Ref Point to NULL.
-
+            walls = new Wall[4]; // Still i don't now the Relation
+        }
+        public void Build()
+        {
+            for (int i = 0; i < walls.Length; i++)
+            {
+                walls[i] = new Wall(); // Composition Relation // Becouse the Creation Happeaned in Class Room
+            }
         }
         public void InstructorEntered(Instructor ins)
         {

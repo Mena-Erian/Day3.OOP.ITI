@@ -17,16 +17,18 @@
             #region Aggregation 
             // Aggregation Relation And Not any Creation Dependencies On Another
 
-            Room room = new Room();
-            Instructor ins = new Instructor();
+            //Room room = new Room();
+            //Instructor ins = new Instructor();
 
-            room.InstructorEntered(ins);
+            //room.InstructorEntered(ins);
 
-            room.StudentEntered(new Student());
-            room.StudentEntered(new Student());
+            //room.StudentEntered(new Student());
+            //room.StudentEntered(new Student());
 
 
             #endregion
+
+
 
         }
     }
