@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Day3.OOP.ITI
+{
+    public class Instructor
+    {
+        public string Name { get; set; }
+
+        public void WriteOnBoard(Marker marker)
+        {
+
+        }
+        public void WriteOnBoard()
+        {
+            Marker marker = new Marker();// Still Association
+        }
+        public void Attend()
+        {
+
+        }
+    }
+}
+
+
+
+
+

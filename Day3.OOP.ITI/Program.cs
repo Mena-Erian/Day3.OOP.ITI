@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region Association
+            Marker mRed = new Marker();
+            Instructor ins1 = new Instructor();
+
+            ins1.WriteOnBoard(mRed);
+            ins1.Attend(); 
+            #endregion
         }
     }
 }
