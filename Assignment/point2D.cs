@@ -11,6 +11,10 @@ namespace Assignment
         public int X, Y;
         public Point2D(int x, int y)
         {
+            if (x <= 0 || y <= 0)
+            {
+                throw new ArgumentException("0 Or Less is Not Valid");
+            }
             X = x; Y = y;
         }
     }
