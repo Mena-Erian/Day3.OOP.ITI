@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace Day3.OOP.ITI
 {
-     class Marker
+    public class Marker  /*: Instructor*/
     {
+        //Instructor ins = new Instructor();
 
+        public void who()
+        {
+            //Not Valid to Access Protected Member from Refrence 
+            //ins.Description = "";
+            // Just Can Access From inhert
+            //Description = "";
+            //base.Description = "";
+        }
     }
 }

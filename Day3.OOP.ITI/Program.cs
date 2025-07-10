@@ -28,7 +28,14 @@
 
             #endregion
 
+            // Is A 
 
+            Human h =new Human(2);
+
+            h.Name = "Test";
+            h.Move();
+
+            
 
         }
     }
